@@ -712,5 +712,6 @@ svg {
     }
     .btn-dark, .btn-light{
         font-size: 12px;
+        padding: 10px;
     }
 }
