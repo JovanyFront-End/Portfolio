@@ -16,6 +16,12 @@ const myProjects = [
         description: "A sleek and modern website designed to showcase the latest MacBook Neo. Built with HTML, CSS, it features a responsive design and UI elements to enhance user experience.",
         image: "alex-brinkman-d4uPQo9EPE8-unsplash.jpg",
         link: "https://macbook-neo-v3.netlify.app/"
+    },
+    {
+        title: "ToDO List Website",
+        description: "A simple and modern design for a ToDo List. Built with HTML, CSS AND JAVASCRIPT, it features a responsive design and Add tasks functionality",
+        image: "eden-constantino-iJg1YzsEfqo-unsplash.jpg",
+        link: "https://jovanyfront-end.github.io/ToDo/"
     }
 ];
 
