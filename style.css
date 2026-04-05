@@ -710,7 +710,7 @@ svg {
         gap: 1rem;
         text-align: center;
     }
-    .btn-dark{
+    .btn-dark, .btn-light{
         font-size: 12px;
     }
 }
