@@ -1,0 +1,73 @@
+const myProjects = [
+    {
+        title: "Shoecase Website",
+        description: "Showcase website built with HTML, CSS, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
+        image: "mailchimp-Hv9CS6KZayQ-unsplash.jpg",
+        link: "https://gamehub-v2.netlify.app/"
+    },
+    {
+        title: "E-commerce Website",
+        description: "E-commerce website built with HTML, CSS, and JavaScript. It includes features like product listings, shopping cart, and search functionality.",
+        image: "growtika--_jFGWIE6fg-unsplash.jpg",
+        link: "https://techstore-v2.netlify.app/index.html"
+    },
+    {
+        title: "Landing Page Design",
+        description: "A sleek and modern website designed to showcase the latest MacBook Neo. Built with HTML, CSS, it features a responsive design and UI elements to enhance user experience.",
+        image: "alex-brinkman-d4uPQo9EPE8-unsplash.jpg",
+        link: "https://macbook-neo-v3.netlify.app/"
+    }
+];
+
+let currentIndex = 0;
+
+function displayProjects() {
+    const container = document.getElementById('projects-container');
+    container.innerHTML = myProjects.map(project => `
+        <div class="project-card">
+            <img src="${project.image}" alt="${project.title}" class="project-image">
+            <div class="project-info">
+                <h3>${project.title}</h3>
+                <p>${project.description}</p>
+                <a href="${project.link}" target="_blank" class="project-link">View Project →</a>
+            </div>
+        </div>
+    `).join('');
+}
+
+function updateSlider() {
+    const container = document.getElementById('projects-container');
+
+    if (window.innerWidth <= 768) {
+        const offset = -currentIndex * 100;
+        container.style.transform = `translateX(${offset}%)`;
+    } else {
+        container.style.transform = `translateX(0)`;
+    }
+}
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+    if (currentIndex < myProjects.length - 1) {
+        currentIndex++;
+    } else {
+        currentIndex = 0; 
+    }
+    updateSlider();
+});
+
+document.getElementById('prevBtn').addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+    } else {
+        currentIndex = myProjects.length - 1; 
+    }
+    updateSlider();
+});
+
+window.addEventListener('resize', updateSlider);
+
+document.addEventListener('DOMContentLoaded', () => {
+    displayProjects();
+});
+
+document.getElementById('current-year').textContent = new Date().getFullYear();
