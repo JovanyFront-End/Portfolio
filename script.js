@@ -22,7 +22,13 @@ const myProjects = [
         description: "A simple and modern design for a ToDo List. Built with HTML, CSS AND JAVASCRIPT, it features a responsive design and Add tasks functionality",
         image: "eden-constantino-iJg1YzsEfqo-unsplash.jpg",
         link: "https://jovanyfront-end.github.io/ToDo/"
-    }
+    },
+        {
+        title: "Dashboard Website",
+        description: "Dashboard Website tracker. It tracks your month income, month expenses and your goal savings shown as a progress bar",
+        image: "deng-xiang--WXQm_NTK0U-unsplash.jpg",
+        link: "https://jovanyfront-end.github.io/Dashboard-Tracker/"
+    },
 ];
 
 let currentIndex = 0;
