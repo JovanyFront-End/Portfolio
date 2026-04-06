@@ -3,19 +3,19 @@ const myProjects = [
         title: "Shoecase Website",
         description: "Showcase website built with HTML, CSS, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
         image: "mailchimp-Hv9CS6KZayQ-unsplash.jpg",
-        link: "https://gamehub-v2.netlify.app/"
+        link: "https://jovanyfront-end.github.io/GameHub/"
     },
     {
         title: "E-commerce Website",
         description: "E-commerce website built with HTML, CSS, and JavaScript. It includes features like product listings, shopping cart, and search functionality.",
         image: "growtika--_jFGWIE6fg-unsplash.jpg",
-        link: "https://techstore-v2.netlify.app/index.html"
+        link: "https://jovanyfront-end.github.io/Techstore/"
     },
     {
         title: "Landing Page Design",
         description: "A sleek and modern website designed to showcase the latest MacBook Neo. Built with HTML, CSS, it features a responsive design and UI elements to enhance user experience.",
         image: "alex-brinkman-d4uPQo9EPE8-unsplash.jpg",
-        link: "https://macbook-neo-v3.netlify.app/"
+        link: "https://jovanyfront-end.github.io/MACBOOK-NEO/"
     },
     {
         title: "ToDO List Website",
