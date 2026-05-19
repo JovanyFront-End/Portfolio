@@ -1,6 +1,6 @@
 const myProjects = [
     {
-        title: "Shoecase Website",
+        title: "Showcase Website",
         description: "Showcase website built with HTML, CSS, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
         image: "mailchimp-Hv9CS6KZayQ-unsplash.jpg",
         link: "https://jovanyfront-end.github.io/GameHub/"
