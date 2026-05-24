@@ -9,7 +9,7 @@ const myProjects = [
         title: "E-commerce Website",
         description: "E-commerce website built with HTML, TAILWINDcss, and JavaScript. It includes features like product listings, shopping cart, search functionality, and more!",
         image: "growtika--_jFGWIE6fg-unsplash.jpg",
-        link: "https://jovanyfront-end.github.io/aura/"
+        link: "https://auraessentail.vercel.app/"
     },
     {
         title: "Landing Page Design",
