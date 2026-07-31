@@ -1,6 +1,6 @@
 const myProjects = [
     {
-        title: "Showcase Website",
+        title: " Product Showcase Website",
         description: "Showcase website built with HTML, CSS, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
         image: "mailchimp-Hv9CS6KZayQ-unsplash.jpg",
         link: "https://jovanyfront-end.github.io/GameHub/"
@@ -12,8 +12,14 @@ const myProjects = [
         link: "https://auraessentail.vercel.app/"
     },
     {
+        title: "Business Showcase Website",
+        description: "Business showcase website built with HTML, TAILWINDcss, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
+        image: "pexels-thirdman-7256576.jpg",
+        link: "https://uniquecrafts.vercel.app/"
+    },
+    {
         title: "Landing Page Design",
-        description: "A sleek and modern website designed to showcase the latest MacBook Neo. Built with HTML, CSS, it features a responsive design and UI elements to enhance user experience.",
+        description: "A sleek and modern website designed to showcase the latest MacBook Neo. Built with HTML and CSS, it features a responsive design and UI elements to enhance user experience.",
         image: "alex-brinkman-d4uPQo9EPE8-unsplash.jpg",
         link: "https://jovanyfront-end.github.io/MACBOOK-NEO/"
     },
