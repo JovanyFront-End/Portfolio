@@ -14,7 +14,7 @@ const myProjects = [
     {
         title: "Business Showcase Website",
         description: "Business showcase website built with HTML, TAILWINDcss, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
-        image: "pexels-thirdman-7256576.jpg",
+        image: "pexels-thirdman-7256845.jpg",
         link: "https://uniquecrafts.vercel.app/"
     },
     {
