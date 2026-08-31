@@ -8,14 +8,14 @@ const myProjects = [
     {
         title: "E-commerce Website",
         description: "E-commerce website built with HTML, TAILWINDcss, and JavaScript. It includes features like product listings, shopping cart, search functionality, and more!",
-        image: "growtika--_jFGWIE6fg-unsplash.jpg",
-        link: "https://auraessentail.vercel.app/"
-    },
-    {
-        title: "Business Showcase Website",
-        description: "Business showcase website built with HTML, TAILWINDcss, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
         image: "istockphoto-2229745461-612x612.webp",
         link: "https://uniquecrafts.vercel.app/"
+    },
+    {
+        title: "Brand Showcase Website",
+        description: "Brand showcase website built with HTML, TAILWINDcss, and JavaScript. It features a responsive design and interactive elements to enhance user experience.",
+        image: "https://scontent.fcai19-2.fna.fbcdn.net/v/t39.30808-6/346598715_904840570590745_5559111727381141541_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=c8Y0DhibzEYQ7kNvwH38KKn&_nc_oc=AdqMv842a3qH---9iJcgjNqQF6tWRNftAnrdaTRmw1rvKXGp5RvyLqaJd83ZZLAGxj4&_nc_zt=23&_nc_ht=scontent.fcai19-2.fna&_nc_gid=Vc2-NGL0bLdwpQbnse4fbg&_nc_ss=7b2a8&oh=00_AQI_EBogkiv4fTsOfC_r5BDgAggaWVvHVROQRKrlut7DCg&oe=6A9BAE62",
+        link: "https://peak-burger-restaurant.vercel.app/"
     },
     {
         title: "Landing Page Design",
